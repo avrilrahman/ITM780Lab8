@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #faf3e0;
+    color: #4b3e2f;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #d8b4a0;
+    padding: 20px;
+    text-align: center;
+    color: #4b3e2f;
+}
+
+header button {
+    margin: 10px 5px;
+    padding: 8px 12px;
+    background-color: #a1765e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+header button:hover {
+    background-color: #8a5d4d;
+}
+
+section {
+    margin: 20px;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills li {
+    padding: 5px 0;
+}
+
+/* Gallery Styling */
+.gallery-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+figure {
+    max-width: 300px;
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #4b3e2f;
+    color: #faf3e0;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* Dark Mode */
+.dark-mode {
+    background-color: #4b3e2f;
+    color: #faf3e0;
+}
+
+.dark-mode a {
+    color: #f1f1f1; /* Light color for links in dark mode */
+}
+
+a {
+    color: #4b3e2f; /* Default link color */
+    text-decoration: underline; /* Underline links by default */
+}
+
+a:hover {
+    color: #a1765e; /* Hover color for links */
+}
